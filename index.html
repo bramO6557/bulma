@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Dagplanning App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"></a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="index.html">
+        weekdoel
+      </a>
+
+      <a class="navbar-item" href="Coach.html">
+        Coach
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Meer
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Byte-Academy
+          </a>
+          <a class="navbar-item is-selected">
+            schoolen 
+          </a>
+          <a class="navbar-item">
+            Contact opnemen
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" href="Signup.html">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light" href="inlog.html">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <section class="section">
+    <div class="container">
+
+      <div class="box">
+        <h2 class="title"> weekdoelen Invullen</h2>
+        <form>
+            <div class="field">
+            <label class="label">Naam leerling</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="vul hier je naam in">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">weekdoel</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Gebruik bijvoorbeeld 12 hoofdstukken">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Tijd (uuren)</label>
+            <div class="control">
+              <input class="input" type="number" placeholder="Gebruik bijvoorbeeld 3 uur">
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-danger pr-6 pl-6">versturen</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="box">
+        <h2 class="title">Plenning voor vandaag</h2>
+        <ul>
+          <li><strong>09:00-10:30</strong> werk maken 📖</li>
+          <li><strong>10:30-10:45</strong> pauze 🕐</li>
+          <li><strong>10:45-12:15</strong> werk maken 📖</li>
+          <li><strong>12:15-13:00</strong> pauze 🕐</li>
+          <li><strong>13:00-14:15</strong> werk maken 📖</li>
+          <li><strong>14:15-14:30</strong> pauze 🕐</li>
+          <li><strong>14:30-15:00</strong> werk maken 📖</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="content has-text-centered has-text-white has-background-black-bis p-6">
+    <p>Bram Oostendorp 2025 Byte-Academy</p>
+  </div>
+</footer>
+</body>
+</html>
